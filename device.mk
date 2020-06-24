@@ -47,8 +47,6 @@ PRODUCT_PACKAGES += \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.realme_sdm710 \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
 
-PRODUCT_COPY_FILES += \
-    vendor/ancient/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
 
 # Media
 PRODUCT_COPY_FILES += \
